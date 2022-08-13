@@ -1,3 +1,7 @@
+# MeEntiendes App
+
+Is an app that is voice to text and text to speech
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
