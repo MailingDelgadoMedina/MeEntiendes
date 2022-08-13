@@ -21,7 +21,7 @@ function Animation() {
     return (
         <div>
 
-            <div className="bg-repeat divcontain " ref={divcontain}></div>
+            <div className=" divcontain " ref={divcontain}></div>
         </div>
     )
 }

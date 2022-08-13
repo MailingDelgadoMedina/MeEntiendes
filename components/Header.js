@@ -21,7 +21,7 @@ function Header() {
 
     return (
         <div>
-            <Disclosure as="nav" className="bg-gray-800">
+            <Disclosure as="nav" className="bg-bgheader">
                 {({ open }) => (
                     <>
                         <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">

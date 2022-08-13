@@ -8,7 +8,7 @@ function Footer() {
     return (
         <div>
 
-            <footer className="absolute bottom-0 w-full  bg-white dark:bg-gray-800">
+            <footer className="  bg-white dark:bg-gray-800">
                 <div className="container px-6 py-8 mx-auto">
                     <div className="text-center">
 
