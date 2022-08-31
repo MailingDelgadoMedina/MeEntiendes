@@ -42,7 +42,7 @@ function Speech() {
                     <div className="items-center -mx-2 md:flex">
                         <div className="w-full mx-2">
                             <label className="block mb-2 text-sm font-medium text-gray-600 dark:text-gray-200">
-                                {listening && <div>Talk I'm listening ...</div>}</label>
+                                {listening && <div>Talk I am listening ...</div>}</label>
                             <p className='text-yellow-500'>{text}</p>
 
 
