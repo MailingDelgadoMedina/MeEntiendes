@@ -4,7 +4,8 @@ import { Popover, Transition } from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
 import { ChevronRightIcon } from '@heroicons/react/solid'
 import Animation from './Animation'
-
+import Image from 'next/image'
+import Link from 'next/link'
 
 const navigation = [
     { name: 'About', href: '/about' },
@@ -27,11 +28,15 @@ function Hero() {
                                 <div className="flex items-center justify-between w-full md:w-auto">
                                     <a href="/">
                                         <span className="sr-only">Workflow</span>
-                                        <img
-                                            className="h-8 w-auto sm:h-10"
-                                            src="https://tailwindui.com/img/logos/workflow-mark.svg?color=indigo&shade=500"
-                                            alt=""
-                                        />
+                                        <div  className="h-8 w-auto sm:h-10">
+                                             <h1
+                                           className='text-3xl text-white  font-extrabold '
+                                           
+                                        >
+                                            Speech<span className='  text-amber-500'>App</span>
+                                        </h1>
+                                        </div>
+                                       
                                     </a>
                                     <div className="-mr-2 flex items-center md:hidden">
                                         <Popover.Button className="bg-gray-900 rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:bg-gray-800 focus:outline-none focus:ring-2 focus-ring-inset focus:ring-white">
@@ -74,13 +79,14 @@ function Hero() {
                         <Popover.Panel focus className="absolute z-10 top-0 inset-x-0 p-2 transition transform origin-top md:hidden">
                             <div className="rounded-lg shadow-md bg-white ring-1 ring-black ring-opacity-5 overflow-hidden">
                                 <div className="px-5 pt-4 flex items-center justify-between">
-                                    <div>
-                                        <img
-                                            className="h-8 w-auto"
-                                            src="https://tailwindui.com/img/logos/workflow-mark.svg?color=indigo&shade=600"
-                                            alt=""
-                                        />
-                                    </div>
+                                  <div  className="h-8 w-auto sm:h-10">
+                                             <h1
+                                           className='text-3xl text-white  font-extrabold '
+                                           
+                                        >
+                                            Speech<span className='  text-amber-500'>App</span>
+                                        </h1>
+                                        </div>
                                     <div className="-mr-2">
                                         <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-600">
                                             <span className="sr-only">Close menu</span>
