@@ -8,10 +8,10 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 const navigation = [
-    { name: 'About', href: '/about' },
+    // { name: 'About', href: '/about' },
     { name: 'MeEntiendes', href: '/meentiendes' },
-    { name: 'Resources', href: '/resources' },
-    { name: 'Contact', href: '/contact' },
+    // { name: 'Resources', href: '/resources' },
+    // { name: 'Contact', href: '/contact' },
 ]
 
 function Hero() {
