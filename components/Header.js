@@ -3,6 +3,7 @@ import { Fragment } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { BellIcon, MenuIcon, XIcon } from '@heroicons/react/outline'
 import Image from 'next/image'
+import Link from 'next/link'
 const navigation = [
     { name: 'About', href: '/about', current: true },
     { name: 'MeEntiendes', href: '/meentiendes', current: false },
@@ -119,14 +120,20 @@ function Header() {
                                                 </Menu.Item>
 
                                                 <Menu.Item>
+                                                     <Link href="#">
+                                                        
+                                                 
                                                     {({ active }) => (
+
+                                                       
                                                         <a
-                                                            href="#"
+                                                            
                                                             className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700')}
                                                         >
                                                             Sign out
                                                         </a>
                                                     )}
+                                                           </Link>
                                                 </Menu.Item>
                                             </Menu.Items>
                                         </Transition>
