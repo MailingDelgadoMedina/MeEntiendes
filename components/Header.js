@@ -40,20 +40,7 @@ function Header() {
                                 </div>
                                 <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
                                     <div className="flex-shrink-0 flex items-center">
-                                         <Link href="/">
-                                    <a >
-                                        <span className="sr-only">Workflow</span>
-                                        <div  className="h-8 w-auto sm:h-10">
-                                             <h1
-                                           className='text-3xl text-white  font-extrabold '
-                                           
-                                        >
-                                            Speech<span className='  text-amber-500'>App</span>
-                                        </h1>
-                                        </div>
-                                       
-                                    </a>
-                                    </Link>
+                                     
                                         <Link href="/">
                                     <a >
                                         <span className="sr-only">Workflow</span>
